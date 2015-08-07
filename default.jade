@@ -1,0 +1,32 @@
+doctype
+html(lang='en')
+	head
+		meta(charset="UTF-8")
+		meta(name="keywords", content="#")
+		meta(name="description", content="#")
+		title This is your site	
+		meta(content="width=device-width,initial-scale=1.0", name="viewport")
+		link(href="assets/css/styles.css", media="screen", rel="stylesheet", type="text/css")
+		
+	body
+		mixin nav-content()
+			nav: ul
+					li: a(href="#") About 
+					li: a(href="#") Gallery
+					li: a(href="#") Contact
+		.mobile-nav
+			+nav-content()
+			.close-btn: span
+		header
+				.logo: p Logo
+				+nav-content()
+				
+				.mobile-nav-toggle: span
+
+
+
+
+
+
+		script(src="https://code.jquery.com/jquery-2.1.4.min.js")
+		script(src="assets/js/functions.js")
