@@ -19,5 +19,5 @@ Main folder has:
 
 </ul>
 
-To view a live demo of this, you can visit my code pen <br>
+To view a live demo of this, you can visit my code pen: <br>
 http://codepen.io/jeraldjohnson/full/vOvwwq/
